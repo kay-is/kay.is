@@ -59,6 +59,52 @@
     width: 150px;
     height: 200px;
   }
+
+  .awards {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .dev-award {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(
+      135deg,
+      #c19e67 25%,
+      #f3e2c7 50%,
+      #e9d4b3 55%,
+      #e9d4b3 55%,
+      #b68d4c 75%
+    );
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .dev-award h3 {
+    font-size: 60px;
+    margin: 0;
+  }
+
+  .pusher-award {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, #b2b2b2 25%, #fefefe 50%, #b2b2b2 75%);
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pusher-award h3 {
+    font-size: 35px;
+    margin: 0;
+  }
 </style>
 
 <main>
@@ -201,49 +247,104 @@
       src="https://pbs.twimg.com/media/DrVRgSlXcAAkZt-.jpg"
   /></a>
 
-  <h2>My Content</h2>
+  <h2>Content Samples</h2>
 
-  <a
-    href="https://blog.logrocket.com/creating-offline-web-apps-with-aws-amplify-datastore/"
-    ><p>
-      Article: Creating Offline Web Apps with AWS Amplify DataStore
-    </p>
-  </a>
+  <p>
+    ✒️
+    <a
+      href="https://www.moesif.com/blog/technical/api-design/REST-API-Design-Best-Practices-for-Parameters-and-Query-String-Usage/"
+    >
+      REST API Design Best Practices for Parameter & Query String Usage
+    </a>
+  </p>
 
-  <a
-    href="https://www.moesif.com/blog/technical/api-design/REST-API-Design-Best-Practices-for-Parameters-and-Query-String-Usage/"
-    ><p>
-      Article: REST API Design Best Practices for Parameter & Query String Usage
-    </p>
-  </a>
+  <p>
+    ✒️
+    <a
+      href="https://www.moesif.com/blog/technical/api-design/REST-API-Design-Best-Practices-for-Sub-and-Nested-Resources/"
+      >REST API Design Best Practices for Sub and Nested Resources
+    </a>
+  </p>
 
-  <a href="https://dev.to/kayis/await-your-loops-680"
-    ><p>Article: Await Your Loops</p></a
-  >
+  <p>
+    ✒️
+    <a
+      href="https://www.moesif.com/blog/best-practices/api-analytics/API-Best-Practices-For-Feature-Deprecation/"
+    >
+      API Best Practices for Feature Deprecation
+    </a>
+  </p>
 
-  <a href="https://www.youtube.com/watch?v=OUpUmWA0ae0"
-    ><p>Video: Serverless Debugging with AWS SAM and VSCode</p></a
-  >
-  <a
-    href="https://devchat.tv/react-round-up/rru-048-using-and-teaching-react-with-kay-ploser/"
-    ><p>Podcast: Using & Teaching React</p></a
-  >
-  <a
-    href="https://devchat.tv/my-javascript-story/mjs-147-kay-plober/"
-    ><p>Podcast: My JavaScript Story</p></a
-  >
+  <p>
+    ✒️
+    <a
+      href="https://blog.logrocket.com/creating-offline-web-apps-with-aws-amplify-datastore/"
+      >Creating Offline Web Apps with AWS Amplify DataStore
+    </a>
+  </p>
 
-  
-  
+  <p>
+    ✒️
+    <a
+      href="https://iamondemand.com/blog/serverless-authentication-with-aws-amplify-a-practical-guide/"
+      >Serverless Authentication with AWS Amplify
+    </a>
+  </p>
+
+  <p>
+    ✒️ <a href="https://dev.to/kayis/await-your-loops-680">Await Your Loops</a>
+  </p>
+
+  <p>
+    🎥
+    <a href="https://www.youtube.com/watch?v=OUpUmWA0ae0"
+      >Serverless Debugging with AWS SAM and VSCode</a
+    >
+  </p>
+
+  <p>
+    🎙️
+    <a
+      href="https://devchat.tv/react-round-up/rru-048-using-and-teaching-react-with-kay-ploser/"
+      >Using & Teaching React</a
+    >
+  </p>
+
+  <p>
+    🎙️
+    <a href="https://devchat.tv/my-javascript-story/mjs-147-kay-plober/"
+      >My JavaScript Story</a
+    >
+  </p>
+
   <h2>Social Media</h2>
 
-  <a href="https://dev.to/kayis"><p>Blog on dev.to</p></a>
-  <a href="https://twitter.com/K4y1s"><p>Twitter account</p></a>
-  <a href="https://github.com/kay-is"><p>GitHub profile</p></a>
-  <a href="https://stackoverflow.com/story/kay"
-    ><p>StackOverflow developer story</p></a
-  >
-  <a href="https://www.linkedin.com/in/kay-plößer"><p>LinkedIn profile</p></a>
+  <p>📝 <a href="https://dev.to/kayis">Dev.to blog</a></p>
+  <p>🐦 <a href="https://twitter.com/K4y1s">Twitter account</a></p>
+  <p>🐙 <a href="https://github.com/kay-is">GitHub profile</a></p>
+  <p>
+    ❓
+    <a href="https://stackoverflow.com/story/kay"
+      >StackOverflow developer story</a
+    >
+  </p>
+  <p>
+    👔 <a href="https://www.linkedin.com/in/kay-plößer">LinkedIn profile</a>
+  </p>
+
+  <h2>Awards</h2>
+
+  <div class="awards">
+    <div class="dev-award">
+      <h3>DEV</h3>
+      <p>Distinguished Author<br />2019</p>
+    </div>
+
+    <div class="pusher-award">
+      <h3>Pusher Contest</h3>
+      <p>Runner-Up Prize Winner</p>
+    </div>
+  </div>
 
   <h2>Certifications</h2>
 
